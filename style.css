@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: gray;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+}
+
+.navbar ul li{
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+ .home:hover{
+    color: red;
+    font-size: 25px;
+ }
+ #about{
+    background-color: gainsboro;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ main {
+    padding: 0 150px;
+ }
